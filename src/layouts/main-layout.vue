@@ -1,6 +1,6 @@
 <script setup>
 import TheHeader from '@/layouts/the-header.vue'
-import RequestCalendar from '@/contexts/learning/components/form/request-calendar.component.vue'
+import RequestForm from '@/contexts/learning/components/form/request-form.component.vue'
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import RequestCalendar from '@/contexts/learning/components/form/request-calenda
     <TheHeader />
     <div class="main-content">
       <div class="content_cards">
-        <RequestCalendar/>
+        <RequestForm/>
       </div>
     </div>
   </div>

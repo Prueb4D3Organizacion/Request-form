@@ -5,6 +5,7 @@ import Menubar from 'primevue/menubar';
 import Badge from 'primevue/badge';
 import Button from 'primevue/button';
 import DatePicker from 'primevue/datepicker';
+import InputText from 'primevue/inputtext';
 
 import './assets/main.css'
 import 'primeicons/primeicons.css'
@@ -19,4 +20,5 @@ export default (app) => {
   app.component('pv-badge', Badge)
   app.component('pv-button', Button)
   app.component('pv-datepicker', DatePicker)
+  app.component('pv-input-text', InputText)
 }
